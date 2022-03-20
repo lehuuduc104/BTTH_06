@@ -36,3 +36,31 @@
     font-size: 5rem;
     z-index:3;
 }
+@-webkit-keyframes my {
+    0% { color: red; } 
+    50% { color: black;  } 
+    100% { color: red;  } 
+}
+@-moz-keyframes my { 
+    0% { color: red;  } 
+    50% { color: black;  }
+    100% { color: red;  } 
+}
+@-o-keyframes my { 
+    0% { color: red; } 
+    50% { color: black; } 
+    100% { color: red;  } 
+}
+@keyframes my { 
+    0% { color: red;  } 
+    50% { color: black;  }
+    100% { color: red;  } 
+} 
+.loi_chuc{
+    font-size: 75px;
+    font-weight: 700;
+	-webkit-animation: my 900ms infinite;
+	-moz-animation: my 900ms infinite; 
+	-o-animation: my 900ms infinite; 
+	animation: my 900ms infinite;
+}
