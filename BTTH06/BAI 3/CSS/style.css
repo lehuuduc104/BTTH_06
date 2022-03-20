@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+#thoi_gian{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#dong_ho{
+    width: 30%;
+    border: 1px solid black;
+    border-right: none;
+    background-color: black;
+}
+.loi_chuc{
+    width: 70%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 5rem;
+}
+/*  */
+#dong_ho #thoi_gian div{
+    position: relative;
+    margin: 0 5px;
+}
+#dong_ho #thoi_gian div span{
+    position: relative;
+    color: red;
+    width:200px;
+    height: 160px;
+    font-weight: 300;
+    align-items: center;
+    font-size: 5rem;
+    z-index:3;
+}
